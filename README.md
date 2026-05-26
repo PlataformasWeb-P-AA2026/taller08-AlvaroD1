@@ -66,5 +66,11 @@ Configura `DATABASE_URL` antes de ejecutar los scripts (crea la base `paises` pr
 * Script(s) replicables (indicar el orden de ejecución)
 * Script de frontend
 * Evidencia de la base de datos sqlite
-* Evidencia de la base de datos mariaDB o mySQL
+* <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ccc725b1-fdb1-4013-bca1-bac01409b8ef" />
+
+* Evidencia de la base de datos en mySQL
+* <img width="704" height="371" alt="Captura desde 2026-05-26 12-36-17" src="https://github.com/user-attachments/assets/da5220d9-a1b4-4781-898e-d71e40338f26" />
+ 
 * Evidencia del frontend funcionando
+* <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8aed3315-864c-4078-9175-b2980a2aef39" />
+
