@@ -36,10 +36,35 @@ paise número de jugadores de la base, número de goles en función de los goles
 
 5. Probar el funcionamiento una base de datos mariaDB o mySQL
 
+## Scripts y orden de ejecución
+
+1. Instalar dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Crear la base de datos SQLite (`data/paises.db`) y cargar los datos:
+   ```bash
+   python load_data.py
+   ```
+3. Ejecutar el frontend:
+   ```bash
+   streamlit run app.py
+   ```
+
+### Probar con MariaDB / MySQL
+
+Configura `DATABASE_URL` antes de ejecutar los scripts (crea la base `paises` previamente en tu servidor). Ejemplos:
+
+- 3MySQL:
+  ```bash
+  DATABASE_URL="mysql+pymysql://user:12345@127.0.0.1:3306/paises" python load_data.py
+  DATABASE_URL="mysql+pymysql://user:12345@127.0.0.1:3306/paises" streamlit run app.py
+  ```
+
 ## Entregables
 
 * Script(s) replicables (indicar el orden de ejecución)
 * Script de frontend
 * Evidencia de la base de datos sqlite
 * Evidencia de la base de datos mariaDB o mySQL
-* Evidencia del fronted funcionando
+* Evidencia del frontend funcionando
